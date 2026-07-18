@@ -1,0 +1,5 @@
+n = int(input("Enter number of elements: "))
+arr = list(map(int, input("Enter elements: ").split()))
+k = int(input("Enter value of k: "))
+arr.sort(reverse=True)
+print(k, "th largest element is:", arr[k - 1])
